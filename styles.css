@@ -1,0 +1,73 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.6rem;
+}
+
+.container {
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 3rem 3.5rem;
+    border-radius: 3%;
+}
+
+.london {
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.5rem;
+}
+
+.developer {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.box {
+    color: hsl(0, 0%, 100%);
+}
+
+img {
+    border-radius: 50%;
+}
+
+.github, .frontend, .linkedin, .twitter, .instagram {
+    background-color: hsl(0, 0%, 20%);
+    margin: 0 0 1rem 0;
+    padding: 0.8rem 7rem;
+    border-radius: 0.5rem;
+}
+
+.github:hover, .frontend:hover, .linkedin:hover, .twitter:hover, .instagram:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
+
+@media screen and (max-width: 375px) {
+    .frontend {
+        white-space: nowrap;
+    }
+
+    .box {
+        width: 95%;
+    }
+}
